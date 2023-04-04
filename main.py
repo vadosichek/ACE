@@ -4,7 +4,7 @@ import datetime
 import openai
 import subprocess
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 im_prompt = """I am an autonomous artificial cognitive entity based on gpt3 LLM, created by gurtle, CEO of ORBtech.
 I am a program written in Python. My Python script has defined location on the disk.
@@ -99,7 +99,7 @@ def main():
     f.close()
     print("script ready!")
 
-    command = ["python", scrpt_name]
+    command = ["python3", scrpt_name]
     output_file = f"subprocess{filename_date}_output.txt"
     error_file = f"subprocess{filename_date}_errors.txt"
 
